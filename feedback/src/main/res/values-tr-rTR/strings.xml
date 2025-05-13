@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geri Bildirim</string>
+    <string name="feedback_mail_subject">%1$s geri bildirimi</string>
+    <string name="cancel">İptal</string>
+    <string name="Ok">Tamam</string>
+    <string name="your_input">Geri bildiriminizi yazın</string>
+    <string name="send_feedback">Gönder</string>
+    <string name="please_write">Lütfen bir şey yazın.</string>
+    <string name="send_feedback_two">Geri Bildirim Gönder</string>
+    <string name="feedback">Geri Bildirim</string>
+    <string name="select_image">+ Ekran Görüntüsü Ekle</string>
+    <string name="click_again">Resmi değiştirmek için tekrar tıklayın</string>
+    <string name="select_picture_title">Resim Seç</string>
+    <string name="ok">Tamam</string>
+    <string name="system_info">Sistem Bilgisi</string>
+    <string name="info_fedback_legal_start">"</string>
+    <string name="info_fedback_legal_system_info">"sistem bilgisi "</string>
+    <string name="info_fedback_legal_and">"ve "</string>
+    <string name="info_fedback_legal_log_data">"kayıt verileri "</string>
+    <string name="info_fedback_legal_will_be_sent">%s adresine gönderilecektir</string>
+    <string name="space">" "</string>
+    <string name="sd_card_permission_message">Görselleri seçmek için depolama izni gereklidir.</string>
+    <string name="permission_denied">İzin reddedildi. Lütfen depolama izni verin.</string>
+    <string name="email_not_set">E-posta adresi belirtilmedi</string>
+    <string name="no_email_app">Herhangi bir e-posta uygulaması bulunamadı</string>
+    <string name="file_creation_failed">Ek dosya oluşturulamadı</string>
+    <string name="phone_state_permission_message">Bu uygulama, geri bildirime sistem bilgilerini eklemek için cihaz bilgilerine erişim gerektirir. Lütfen Ayarlar\'dan izin verin.</string>
+    <string name="phone_state_permission_denied">Cihaz bilgilerine erişim izni reddedildi.</string>
+
+    <string name="share_your_thoughts">Bu uygulama hakkındaki düşüncelerinizi paylaşın</string>
+
+    <string name="suggestion">Öneri</string>
+    <string name="bug">Hata</string>
+    <string name="other">Diğer</string>
+    <string name="please_write_description">Lütfen bir açıklama yazın</string>
+
+
+</resources>

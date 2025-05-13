@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">피드백</string>
+    <string name="feedback_mail_subject">%1$s의 피드백</string>
+    <string name="cancel">취소</string>
+    <string name="Ok">확인</string>
+    <string name="your_input">피드백을 작성해주세요</string>
+    <string name="send_feedback">보내기</string>
+    <string name="please_write">무언가를 작성해주세요.</string>
+    <string name="send_feedback_two">피드백 보내기</string>
+    <string name="feedback">피드백</string>
+    <string name="select_image">+ 스크린샷 추가</string>
+    <string name="click_again">이미지를 변경하려면 다시 클릭하세요</string>
+    <string name="select_picture_title">사진 선택</string>
+    <string name="ok">확인</string>
+    <string name="system_info">시스템 정보</string>
+    <string name="info_fedback_legal_start">"</string>
+    <string name="info_fedback_legal_system_info">"시스템 정보 "</string>
+    <string name="info_fedback_legal_and">"및 "</string>
+    <string name="info_fedback_legal_log_data">"로그 데이터 "</string>
+    <string name="info_fedback_legal_will_be_sent">%s(으)로 전송됩니다</string>
+    <string name="space">" "</string>
+    <string name="sd_card_permission_message">이미지를 선택하려면 저장소 권한이 필요합니다.</string>
+    <string name="permission_denied">권한이 거부되었습니다. 저장소 권한을 허용해주세요.</string>
+    <string name="email_not_set">이메일 주소가 제공되지 않았습니다</string>
+    <string name="no_email_app">이메일 앱을 찾을 수 없습니다</string>
+    <string name="file_creation_failed">첨부 파일 생성에 실패했습니다</string>
+    <string name="phone_state_permission_message">이 앱은 피드백에 시스템 세부정보를 포함하기 위해 기기 정보에 대한 접근 권한이 필요합니다. 설정에서 권한을 허용해 주세요.</string>
+    <string name="phone_state_permission_denied">기기 정보에 대한 접근 권한이 거부되었습니다.</string>
+    <string name="share_your_thoughts">이 앱에 대한 생각을 공유해 주세요</string>
+    <string name="suggestion">제안</string>
+    <string name="bug">버그</string>
+    <string name="other">기타</string>
+    <string name="please_write_description">설명을 작성해 주세요</string>
+
+
+</resources>

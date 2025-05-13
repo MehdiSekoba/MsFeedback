@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بازخورد</string>
+    <string name="feedback_mail_subject">بازخورد از %1$s</string>
+    <string name="cancel">لغو</string>
+    <string name="Ok">باشه</string>
+    <string name="your_input">بازخورد خود را بنویسید</string>
+    <string name="send_feedback">ارسال</string>
+    <string name="please_write">لطفاً چیزی بنویسید.</string>
+    <string name="send_feedback_two">ارسال بازخورد</string>
+    <string name="feedback">بازخورد</string>
+    <string name="select_image">+ افزودن اسکرین‌شات</string>
+    <string name="click_again">برای تغییر تصویر دوباره کلیک کنید</string>
+    <string name="select_picture_title">انتخاب تصویر</string>
+    <string name="ok">باشه</string>
+    <string name="system_info">اطلاعات سیستم</string>
+    <string name="info_fedback_legal_start">"</string>
+    <string name="info_fedback_legal_system_info">"اطلاعات سیستم "</string>
+    <string name="info_fedback_legal_and">"و "</string>
+    <string name="info_fedback_legal_log_data">"داده‌های لاگ "</string>
+    <string name="info_fedback_legal_will_be_sent">به %s ارسال خواهد شد</string>
+    <string name="space">" "</string>
+    <string name="sd_card_permission_message">برای انتخاب تصاویر، اجازه دسترسی به حافظه مورد نیاز است.</string>
+    <string name="permission_denied">دسترسی رد شد. لطفاً اجازه دسترسی به حافظه را بدهید.</string>
+    <string name="email_not_set">آدرس ایمیل وارد نشده است</string>
+    <string name="no_email_app">برنامه‌ای برای ایمیل پیدا نشد</string>
+    <string name="file_creation_failed">ایجاد پیوست با خطا مواجه شد</string>
+    <string name="phone_state_permission_message">این برنامه برای افزودن جزئیات سیستم به بازخورد، به دسترسی به اطلاعات دستگاه نیاز دارد. لطفاً در تنظیمات اجازه دسترسی را صادر کنید.</string>
+    <string name="phone_state_permission_denied">دسترسی به اطلاعات دستگاه رد شد.</string>
+    <string name="share_your_thoughts">نظرات خود را درباره این اپلیکیشن به اشتراک بگذارید</string>
+    <string name="suggestion">پیشنهاد</string>
+    <string name="bug">اشکال</string>
+    <string name="other">سایر</string>
+    <string name="please_write_description">لطفاً توضیحی بنویسید</string>
+
+
+</resources>

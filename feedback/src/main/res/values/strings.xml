@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">feedBack</string>
+    <string name="file_name_device_info" translatable="false">deviceInf.txt</string>
+    <string name="file_name_device_log" translatable="false">deviceLog.txt</string>
+    <string name="feedback_mail_subject">Feedback of %1$s</string>
+    <string name="cancel">Cancel</string>
+    <string name="Ok">OK</string>
+    <string name="your_input">Write your feedback</string>
+    <string name="send_feedback">Send</string>
+    <string name="from" translatable="false">From:</string>
+    <string name="please_write">Please write something.</string>
+    <string name="send_feedback_two">Send Feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="select_image">+ Add Screenshot</string>
+    <string name="click_again">Click again to change the image</string>
+    <string name="select_picture_title">Select Picture</string>
+    <string name="ok">OK</string>
+    <string name="system_info">System Info</string>
+    <string name="info_fedback_legal_start">"Your "</string>
+    <string name="info_fedback_legal_system_info">"system info "</string>
+    <string name="info_fedback_legal_and">"and "</string>
+    <string name="info_fedback_legal_log_data">"log data "</string>
+    <string name="info_fedback_legal_will_be_sent">will be sent to %s</string>
+    <string name="space">" "</string>
+    <string name="sd_card_permission_message">Storage permission is required to select images.</string>
+    <string name="permission_denied">Permission denied. Please grant storage permission.</string>
+    <string name="email_not_set">Email address not provided</string>
+    <string name="no_email_app">No email app found</string>
+    <string name="file_creation_failed">Failed to create attachment</string>
+    <string name="phone_state_permission_message">This app needs access to device information to include system details in feedback. Please grant the permission in Settings.</string>
+    <string name="phone_state_permission_denied">Permission to access device information was denied.</string>
+    <string name="share_your_thoughts">Share your thoughts about this app</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="bug">Bug</string>
+    <string name="other">Other</string>
+    <string name="please_write_description">Please write a description</string>
+
+</resources>

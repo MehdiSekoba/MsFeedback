@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ملاحظات</string>
+    <string name="feedback_mail_subject">ملاحظات من %1$s</string>
+    <string name="cancel">إلغاء</string>
+    <string name="Ok">موافق</string>
+    <string name="your_input">اكتب ملاحظاتك</string>
+    <string name="send_feedback">إرسال</string>
+    <string name="please_write">يرجى كتابة شيء.</string>
+    <string name="send_feedback_two">إرسال الملاحظات</string>
+    <string name="feedback">ملاحظات</string>
+    <string name="select_image">+ أضف لقطة شاشة</string>
+    <string name="click_again">انقر مرة أخرى لتغيير الصورة</string>
+    <string name="select_picture_title">اختر صورة</string>
+    <string name="ok">موافق</string>
+    <string name="system_info">معلومات النظام</string>
+    <string name="info_fedback_legal_start">"</string>
+    <string name="info_fedback_legal_system_info">"معلومات النظام "</string>
+    <string name="info_fedback_legal_and">"و "</string>
+    <string name="info_fedback_legal_log_data">"بيانات السجل "</string>
+    <string name="info_fedback_legal_will_be_sent">سيتم إرسالها إلى %s</string>
+    <string name="space">" "</string>
+    <string name="sd_card_permission_message">يلزم إذن الوصول إلى التخزين لاختيار الصور.</string>
+    <string name="permission_denied">تم رفض الإذن. يرجى منح إذن التخزين.</string>
+    <string name="email_not_set">لم يتم تقديم عنوان البريد الإلكتروني</string>
+    <string name="no_email_app">لم يتم العثور على تطبيق بريد إلكتروني</string>
+    <string name="file_creation_failed">فشل في إنشاء المرفق</string>
+
+    <string name="phone_state_permission_message">يحتاج هذا التطبيق إلى الوصول إلى معلومات الجهاز لإدراج تفاصيل النظام في الملاحظات. يرجى منح الإذن من خلال الإعدادات.</string>
+    <string name="phone_state_permission_denied">تم رفض إذن الوصول إلى معلومات الجهاز.</string>
+    <string name="share_your_thoughts">شارك أفكارك حول هذا التطبيق</string>
+    <string name="suggestion">اقتراح</string>
+    <string name="bug">خلل</string>
+    <string name="other">أخرى</string>
+    <string name="please_write_description">يرجى كتابة وصف</string>
+
+
+
+</resources>

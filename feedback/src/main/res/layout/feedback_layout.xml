@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--content-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_42mdp"
+        app:layout_constraintTop_toTopOf="parent">
+        <!--Guideline left-->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+        <!--Guideline right-->
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.92" />
+        <!--title-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/feedInpLay"
+            style="@style/Widget.App.TextInputLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6mdp"
+            android:hint="@string/please_write"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toEndOf="@id/guideline_left"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_title"
+                style="@style/title_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLength="60"
+                android:maxLines="2"
+                android:textAppearance="@style/TextAppearance_light" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/feedbackTabs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12mdp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toEndOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/feedInpLay"
+            app:tabBackground="@drawable/tab_layout_selector"
+            app:tabGravity="fill"
+            app:tabIndicatorHeight="0dp"
+            app:tabMode="fixed"
+            app:tabRippleColor="@null"
+            app:tabSelectedTextAppearance="@style/TabLayoutFontBold"
+            app:tabTextAppearance="@style/TabLayoutFontNormal"
+            app:tabTextColor="@color/tab_text_color_selector" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/other_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12mdp"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toEndOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/feedbackTabs">
+            <!--description-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/descInpLay"
+                style="@style/Widget.App.TextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_174mdp"
+                android:layout_marginTop="@dimen/_6mdp"
+                android:hint="@string/share_your_thoughts"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_desc"
+                    style="@style/title_Style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:maxLength="260"
+                    android:textAppearance="@style/TextAppearance_light" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Image Attachment Section -->
+            <LinearLayout
+                android:id="@+id/imageAttachmentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12mdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/descInpLay">
+
+                <!-- Image 1 -->
+                <FrameLayout
+                    android:id="@+id/imageContainer1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="@dimen/_8mdp"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/attachedImage1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        app:shapeAppearance="@style/CircleImageView" />
+
+                    <ImageButton
+                        android:id="@+id/removeImage1"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="end|top"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_close"
+                        app:tint="@color/Error_Red" />
+                </FrameLayout>
+
+                <!-- Image 2 -->
+                <FrameLayout
+                    android:id="@+id/imageContainer2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="@dimen/_8mdp"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/attachedImage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        app:shapeAppearance="@style/CircleImageView" />
+
+                    <ImageButton
+                        android:id="@+id/removeImage2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="end|top"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_close"
+                        app:tint="@color/Error_Red" />
+                </FrameLayout>
+
+                <!-- Image 3 -->
+                <FrameLayout
+                    android:id="@+id/imageContainer3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="@dimen/_8mdp"
+                    android:visibility="gone">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/attachedImage3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        app:shapeAppearance="@style/CircleImageView" />
+
+                    <ImageButton
+                        android:id="@+id/removeImage3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="end|top"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_close"
+                        app:tint="@color/Error_Red" />
+                </FrameLayout>
+
+                <!-- Add Image Button -->
+                <ImageButton
+                    android:id="@+id/addImageButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/dashed_border"
+                    android:contentDescription="@string/app_name"
+                    android:src="@android:drawable/ic_input_add"
+                    app:tint="@android:color/darker_gray" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/info_legal"
+            style="@style/title_Style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12mdp"
+            android:textAppearance="@style/TextAppearance_light"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toEndOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/other_lay" />
+        <!--submitSuggestion-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitSuggestion"
+            style="@style/GreenMaterialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8mdp"
+            android:text="@string/send_feedback_two"
+            android:textSize="@dimen/_12font_mdp"
+            android:enabled="false"
+            android:textColor="@color/button_text_color"
+            app:backgroundTint="@color/green_button_background"
+            app:layout_constraintEnd_toStartOf="@id/guideline_right"
+            app:layout_constraintStart_toEndOf="@id/guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/info_legal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

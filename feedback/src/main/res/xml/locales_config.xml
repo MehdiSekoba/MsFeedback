@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />          <!-- English (General) -->
+    <locale android:name="fa" />          <!-- Persian -->
+    <locale android:name="ar" />          <!-- Arabic (general) -->
+    <locale android:name="ko-KR" />       <!-- Korean (South Korea) -->
+    <locale android:name="tr-TR" />       <!-- Turkish (Turkey) -->
+</locale-config>

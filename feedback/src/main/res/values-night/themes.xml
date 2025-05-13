@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sample" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/Chinese_Black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/Chinese_Black</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorSurface">@color/Ghost_white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnSurfaceVariant">@color/Ghost_white</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="android:windowBackground">@color/Chinese_Black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="Q">true</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="Q">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+    <!--text style-->
+    <style name="title_Style">
+        <item name="android:textColor">@color/Ghost_white</item>
+    </style>
+    <style name="TextAppearance_light">
+        <item name="android:textSize">@dimen/_12font_mdp</item>
+        <item name="font">@font/noto_sans_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!-- material button-->
+    <style name="GreenMaterialButton" parent="ThemeOverlay.Material3.Button">
+        <item name="cornerRadius">@dimen/_15mdp</item>
+        <item name="iconStartPadding">@dimen/_6mdp</item>
+        <item name="android:inset">0dp</item>
+        <item name="android:textAppearance">@dimen/_12font_mdp</item>
+        <item name="android:enabled">true</item>
+        <item name="backgroundTint">@color/green_button_background</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <!--edittext style-->
+    <style name="Widget.App.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+        <item name="hintTextColor">@color/hint_text_color_selector</item>
+        <item name="boxBackgroundColor">@color/chinese_black_90</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_10mdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_10mdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_10mdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_10mdp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="startIconTint">@color/Ghost_white</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="boxStrokeColor">@color/text_input_stroke_color</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="android:drawablePadding">@dimen/_2mdp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextInputLayout" parent="">
+        <item name="colorPrimary">@color/Japanese_Indigo</item>
+        <item name="colorOnSurface">@color/Light_Periwinkle</item>
+        <item name="colorError">#FB0000</item>
+        <item name="editTextStyle">@style/Widget.App.TextInputEditText</item>
+    </style>
+
+    <style name="Widget.App.TextInputEditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="hintTextColor">@color/hint_text_color_selector</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_2mdp</item>
+    </style>
+    <!--material dialog-->
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.App.Button</item>
+
+    </style>
+    <!--    Theme for alert dialog -->
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_12mdp</item>
+    </style>
+    <style name="Widget.App.Button" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/Amazon</item>
+        <item name="android:textAppearance">@style/TextAppearance_light</item>
+
+    </style>
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8%</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+    <!--Tab layout-->
+    <style name="TabLayoutFontNormal" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="fontFamily">@font/noto_sans_medium</item>
+        <item name="android:fontFamily">@font/noto_sans_medium</item>
+        <item name="android:textSize">@dimen/_10font_mdp</item>
+    </style>
+
+    <style name="TabLayoutFontBold" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="fontFamily">@font/noto_sans_bold</item>
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+        <item name="android:textSize">@dimen/_14font_mdp</item>
+    </style>
+</resources>

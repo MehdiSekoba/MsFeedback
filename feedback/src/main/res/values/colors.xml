@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Chinese_Black">#111111</color>
+    <color name="Japanese_Indigo">#2B3F53</color>
+    <color name="Amazon">#307A59</color>
+    <color name="Roman_Silver">#7E8D9A</color>
+    <color name="Ghost_white">#F9FAFC</color>
+    <color name="Azureish_white">#DAEBFC</color>
+    <color name="Light_Periwinkle">#BDCDDD</color>
+    <color name="Cadet_Grey">#9BA8B4</color>
+    <color name="semi_transparent_white">#19FFFFFF</color>
+    <color name="transparent_white">#39FFFFFF</color>
+    <!--alpha-->
+    <color name="chinese_black_90">#E62B2B2B</color>
+    <!--send,delete,share-->
+    <color name="Primary_Blue">#00ACC1</color>
+    <color name="Error_Red">#F44336</color>
+    <color name="dark_gunmetal">#1F1D36</color>
+    <color name="Smoky_Black">#0D0D0D</color>
+    <color name="Royal_Purple">#8341b3</color>
+    <color name="Outer_Space">#444348</color>
+    <color name="Ghost_White_400">#f7f6fb</color>
+    <color name="yellow">#ECB72D</color>
+    <color name="gray_500">#E5E3E3</color>
+
+    <color name="primary">#1976D2</color>
+    <color name="regular_text_color">#757575</color>
+    <color name="Light_Gray">#F5F5F5 </color>
+    <color name="Dark_Gray">#1C1C1C</color>
+
+</resources>
